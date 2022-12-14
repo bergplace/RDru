@@ -1,0 +1,16 @@
+Package: RDru
+Title: Package to analyse graphs based on transactions in blockchain
+Version: 1.0.0.0
+Authors@R: 
+    person("Mateusz", "Gabrys", , "mgabrys777@gmail.com", role = c("aut", "cre"))
+Description: The package allows the user to use functions available on the Dru platform in the R environment.
+Depends:
+	R (>= 3.4.2)
+License: GPL-2
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.2.1
+Imports: jsonlite, lubridate, devtools, httr
+Suggests: 
+    testthat (>= 3.0.0)
+Config/testthat/edition: 3
